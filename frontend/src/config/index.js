@@ -10,7 +10,7 @@ export const APP_CONFIG = {
 export const ENV_CONFIG = {
   isDevelopment: import.meta.env.DEV,
   isProduction: import.meta.env.PROD,
-  apiUrl: import.meta.env.VITE_API_URL || 'http://localhost:4000'
+  apiUrl: import.meta.env.VITE_API_URL || 'https://draitd-1.onrender.com'
 };
 
 // Theme Configuration
